@@ -1,3 +1,2 @@
 #!/bin/bash
-touch hello
-chown betty hello
+chown betty hello 2>/dev/null || touch hello && chown betty hello
