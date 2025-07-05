@@ -1,9 +1,2 @@
 #!/bin/bash
-# Create content in a temporary file
-echo "Best School" > tempfile
-
-# Use this exact filename generation
-filename=$'\\*\\\'\''"Best School"\\\'\''\\*$?*****:)'
-
-# Rename with the exact required filename
-mv tempfile "$filename"
+echo "Best School" > $'\\*\\\'\''"Best School"\\\'\''\\*$?*****:)'
