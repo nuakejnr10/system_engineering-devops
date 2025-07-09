@@ -1,2 +1,1 @@
-# 0x03. Shell, unit files, variables 
-and expansions 
+# 0x03. Shell, unit files, variables and expansions 
